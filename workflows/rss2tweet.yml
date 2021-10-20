@@ -1,8 +1,6 @@
 on:
   rss:
     url: ${{ secrets.FEED_URL }}
-    config:
-        every: 5
 jobs:
   twitter:
     name: Post a tweet
